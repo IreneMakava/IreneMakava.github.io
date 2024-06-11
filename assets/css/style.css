@@ -535,7 +535,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #d5570e;
+  color: rgb(16, 180, 7);
 }
 
 .section-title h2::before {
@@ -555,7 +555,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #d5570e;
+  background: rgb(16, 180, 7);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -869,7 +869,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #d5570e;
+  color: rgb(16, 180, 7);
   transition: ease-in-out 0.3s;
 }
 
@@ -1138,7 +1138,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #d5570e;
+  color: rgb(16, 180, 7);
 }
 
 .team .member span {
