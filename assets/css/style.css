@@ -81,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #e9a86b;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -95,7 +95,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #e9a86b;
   color: #fff;
 }
 
@@ -1649,7 +1649,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: rgb(231, 189, 138);
+  background: #eb742f;
 }
 
 #footer .footer-newsletter {
@@ -1776,13 +1776,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #e9a057;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #e9a057;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1795,7 +1795,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #e9a057;
   color: #fff;
   text-decoration: none;
 }
