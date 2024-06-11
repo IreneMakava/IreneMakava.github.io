@@ -1186,13 +1186,13 @@ section {
 }
 
 .team .member .social a i {
-  color: #e49047;
+  color: #37517e;
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #e49047;
+  background: #37517e;
 }
 
 .team .member .social a:hover i {
@@ -1649,7 +1649,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: ##ec925d;
+  background: #ec925d;
 }
 
 #footer .footer-newsletter {
@@ -1752,7 +1752,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #eda240;
+  color: #407795;
   font-size: 18px;
   line-height: 1;
 }
@@ -1782,7 +1782,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e9a057;
+  background: #37517e;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1795,7 +1795,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #e9a057;
+  background: #37517e;
   color: #fff;
   text-decoration: none;
 }
