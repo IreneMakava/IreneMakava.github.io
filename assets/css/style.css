@@ -116,7 +116,7 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
   /* background: rgba(40, 58, 90, 0.9); */
-  background: #e8cbba;
+  background: #eb742f;
 }
 
 #header .logo {
@@ -1649,7 +1649,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: rgb(235, 175, 101);
+  background: rgb(231, 189, 138);
 }
 
 #footer .footer-newsletter {
@@ -1702,7 +1702,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: #eb742f;
 }
 
 #footer .footer-top {
@@ -1752,7 +1752,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #eda240;
   font-size: 18px;
   line-height: 1;
 }
