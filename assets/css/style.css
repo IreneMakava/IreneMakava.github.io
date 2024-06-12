@@ -1973,7 +1973,7 @@ section {
 }
 
 .values .icon-box-pink .icon {
-  background: #fceef3;
+  background: #fff;
 }
 
 .values .icon-box-pink .icon i {
@@ -1996,9 +1996,9 @@ section {
   border-color: rgb(16, 180, 7);
 }
 
-/* .values .icon-box-green .icon {
-  background: #eafde7;
-} */
+.values .icon-box-green .icon {
+  background: #fff;
+}
 
 .values .icon-box-green .icon i {
   color: rgb(16, 180, 7);
