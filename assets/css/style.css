@@ -657,6 +657,7 @@ section {
 
 .why-us .content {
   padding: 60px 100px 0 100px;
+  text-align: center;
 }
 
 .why-us .content h3 {
@@ -1843,7 +1844,7 @@ section {
 }
 
 .values .icon-box {
-  padding: 30px;
+  padding: 25px;
   position: relative;
   overflow: hidden;
   margin: 0 0 40px 0;
@@ -1890,23 +1891,23 @@ section {
 }
 
 .values .icon-box-pink .icon i {
-  color: #ff689b;
+  color: rgb(16, 180, 7);
 }
 
 .values .icon-box-pink:hover {
-  border-color: #ff689b;
+  border-color: rgb(16, 180, 7);
 }
 
 .values .icon-box-cyan .icon {
-  background: #e6fdfc;
+  background: rgb(16, 180, 7);
 }
 
 .values .icon-box-cyan .icon i {
-  color: #3fcdc7;
+  color: rgb(16, 180, 7);
 }
 
 .values .icon-box-cyan:hover {
-  border-color: #3fcdc7;
+  border-color: rgb(16, 180, 7);
 }
 
 .values .icon-box-green .icon {
@@ -1914,11 +1915,11 @@ section {
 }
 
 .values .icon-box-green .icon i {
-  color: #41cf2e;
+  color: rgb(16, 180, 7);
 }
 
 .values .icon-box-green:hover {
-  border-color: #41cf2e;
+  border-color: rgb(16, 180, 7);
 }
 
 .values .icon-box-blue .icon {
@@ -1926,9 +1927,9 @@ section {
 }
 
 .values .icon-box-blue .icon i {
-  color: #2282ff;
+  color: rgb(16, 180, 7);
 }
 
 .values .icon-box-blue:hover {
-  border-color: #2282ff;
+  border-color: rgb(16, 180, 7);
 }
