@@ -623,6 +623,10 @@ section {
   line-height: 1;
 }
 
+.about .content p {
+  color: black;
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
   color: black;
