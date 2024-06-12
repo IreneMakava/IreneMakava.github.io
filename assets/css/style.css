@@ -650,16 +650,16 @@ section {
   text-decoration: none;
 }
 
-.about .container {
+.hero .container {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
   background: #fff;
 }
 
-.about .icon-box+.icon-box {
+.hero .icon-box+.icon-box {
   margin-top: 50px;
 }
 
-.about .icon-box .icon {
+.hero .icon-box .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -671,20 +671,20 @@ section {
   transition: 0.5s;
 }
 
-.about .icon-box .icon i {
+.hero .icon-box .icon i {
   color: #68A4C4;
   font-size: 32px;
 }
 
-.about .icon-box:hover .icon {
+.hero .icon-box:hover .icon {
   background: #68A4C4;
 }
 
-.about .icon-box:hover .icon i {
+.hero .icon-box:hover .icon i {
   color: #fff;
 }
 
-.about .icon-box .title {
+.hero .icon-box .title {
   margin-left: 95px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -692,16 +692,16 @@ section {
   text-transform: uppercase;
 }
 
-.about .icon-box .title a {
+.hero .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
 }
 
-.about .icon-box .title a:hover {
+.hero .icon-box .title a:hover {
   color: #68A4C4;
 }
 
-.about .icon-box .description {
+.hero .icon-box .description {
   margin-left: 95px;
   line-height: 24px;
   font-size: 14px;
