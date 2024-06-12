@@ -798,6 +798,7 @@ section {
   padding-right: 30px;
   outline: none;
   cursor: pointer;
+  background: rgb(16, 180, 7);
 }
 
 .why-us .accordion-list span {
@@ -828,7 +829,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #e49047;
+  color: rgb(16, 180, 7);
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -946,7 +947,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: rgb(16, 180, 7);
+  color: black;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -1985,7 +1986,7 @@ section {
 }
 
 .values .icon-box-cyan .icon {
-  background: #eafde7;
+  background: #fff;
 }
 
 .values .icon-box-cyan .icon i {
@@ -2009,7 +2010,7 @@ section {
 }
 
 .values .icon-box-blue .icon {
-  background: #e1eeff;
+  background: #fff;
 }
 
 .values .icon-box-blue .icon i {
