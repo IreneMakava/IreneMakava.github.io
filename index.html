@@ -37,17 +37,30 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="index.html"></a>
-        <img width="70" height="180" src="assets/img/IMG_4758.PNG" class="img-fluid" alt=""></a>
+        <img width="120" src="assets/img/IMG_4758.PNG" class="img-fluid" alt=""></a>
         </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
       <nav id="navbar" class="navbar ">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#services">Why Us</a></li>
-          <li><a class="nav-link   scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+          <li class="dropdown"><a href="#"><span>WHO ARE WE</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#about">ABOUT US</a></li>
+              <li><a class="nav-link scrollto" href="#coreValues">CORE VALUES</a></li>
+              <li><a class="nav-link scrollto" href="#team">TEAM</a></li>
+            </ul>
+          </li>
+          <!-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="#services">WHY US</a></li> -->
+          <li class="dropdown"><a href="#"><span>WHY US</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#services">WHY US</a></li>
+              <li><a class="nav-link scrollto" href="#why-us">OUR ACTIVITIES</a></li>
+            </ul>
+          </li>
+          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#team">Contact</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -66,7 +79,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">CONTACT US</a></li>
           <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -80,13 +93,14 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-14 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1><span>Building Futures, Nurturing Lives</span></h1>
+          <P>SERIS foundation acknowledges and addresses the pressing challenges confronting the community, notably restricted access to quality healthcare, particularly for infants aged zero to three months due to constraints within the national insurance scheme, poses a significant obstacle ...</P>
           <!-- <h2><span>As an extension of <b>SERIS</b> Construction Limited, a distinguished civil engineering company, the <b>SERIS</b> foundation acknowledges and addresses the pressing challenges confronting the community, notably restricted access to quality healthcare, particularly for infants aged zero to three months due to constraints within the national insurance scheme, poses a significant obstacle.</span></h2> -->
 
-          <div class="container">
+          <!-- <div class="container"> -->
 
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
     
                 <div class="icon-box">
@@ -102,16 +116,18 @@
                 </div>
     
               </div>
-            </div>
+            </div> -->
+
+
           <!-- <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div> -->
+        <!-- </div> -->
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/hero.jpg" class="img-fluid animated" alt="">
         </div>
-      </div>
     </div>
 
   </section><!-- End Hero -->
@@ -201,12 +217,13 @@
 
     <!--Values Section-->
 
-    <section class="values">
-      <div class="section-title">
-        <h3>Core Values</h3>
-        <p> SERIS Core Values are abbreviated as ISCEI.<br>By adhering to these core values, the SERIS Foundation aims to create a positive and lasting impact on Tanzanian communities, fostering a brighter and more sustainable future for all</p>
-      </div>
-    <div class="row" >
+    <section id="coreValues" class="values">
+      <div class="container">
+        <div class="section-title">
+          <h3>Core Values</h3>
+          <p> SERIS Core Values are abbreviated as ISCEI.<br>By adhering to these core values, the SERIS Foundation aims to create a positive and lasting impact on Tanzanian communities, fostering a brighter and more sustainable future for all</p>
+        </div>
+        <div class="row" >
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
@@ -247,6 +264,7 @@
             </div>
           </div>
         </div>
+      </div>
 
 
     </section>
