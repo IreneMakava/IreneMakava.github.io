@@ -1,17 +1,9 @@
-/**
-* Template Name: Arsha
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color:rgb(16, 180, 7) ;
+  /* color:rgb(16, 180, 7) ; */
 }
 
 a {
@@ -110,7 +102,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 #header.header-scrolled,
@@ -579,11 +571,20 @@ section {
   display: inline-block;
   padding: 15px 0;
   filter: grayscale(100);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-filter: grayscale(100);
 }
 
 .clients img:hover {
   filter: none;
   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
@@ -646,6 +647,14 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #e49047;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .about .content .btn-learn-more:hover {
@@ -673,6 +682,14 @@ section {
   background: #f3f8fa;
   border-radius: 6px;
   transition: 0.5s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .hero .icon-box .icon i {
@@ -699,6 +716,10 @@ section {
 .hero .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .hero .icon-box .title a:hover {
@@ -761,6 +782,10 @@ section {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .why-us .accordion-list a {
@@ -1181,7 +1206,7 @@ section {
 }
 
 .team .member .pic {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 180px;
   border-radius: 50%;
 }
