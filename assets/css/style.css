@@ -448,8 +448,10 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
-    text-align: center;
+    /* height: 100vh;
+    text-align: center; hapa*/
+    height: auto;
+    text-align: justify;
   }
 
   #hero .animated {
