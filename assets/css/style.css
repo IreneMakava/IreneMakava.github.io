@@ -106,12 +106,12 @@ html,body{
 }
 
   
-  .container {
+  /* .container {
     margin: 5%;
     padding: 20px;
     background-color: #f9f9f9;
   }
-  
+   */
   /* Adjust for smaller screens */
   @media (max-width: 768px) {
     .container {
@@ -120,12 +120,12 @@ html,body{
     }
   }
   
-
+/* 
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
-}
+} */
 
 nav.navbar.bootsnav {
     background-color: #fff;
