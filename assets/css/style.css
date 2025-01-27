@@ -113,19 +113,19 @@ html,body{
   }
    */
   /* Adjust for smaller screens */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .container {
       margin: 2%;
       padding: 10px;
     }
-  }
+  } */
   
-/* 
+
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
-} */
+}
 
 nav.navbar.bootsnav {
     background-color: #fff;
