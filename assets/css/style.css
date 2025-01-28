@@ -38,7 +38,7 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 }
 body{
-	font-family: 'Merriweather';
+	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	color: #676a81;
 	background: #fff;
@@ -104,22 +104,6 @@ html,body{
     position: relative;
     z-index: 9999;
 }
-
-  
-  /* .container {
-    margin: 5%;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-   */
-  /* Adjust for smaller screens */
-  /* @media (max-width: 768px) {
-    .container {
-      margin: 2%;
-      padding: 10px;
-    }
-  } */
-  
 
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
