@@ -206,7 +206,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.navbar-toggle */
 
 #welcome-hero {
-    padding-top: 100px; /* Adjust based on navbar height */
+    padding-top: 50px; /* Adjust based on navbar height */
 }
 .navbar-fixed {
     background: white !important;
