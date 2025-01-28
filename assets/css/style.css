@@ -914,11 +914,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    .navbar-fixed {
+        height: 70px; /* Increase navbar height for smaller screens */
+        line-height: 70px;
+    }
+    
     #welcome-hero {
-        padding-top: 100px; /* Adjust according to your header height */
+        padding-top: 100px; /* Ensure enough spacing */
     }
 }
+
+
+/* @media (max-width: 768px) {
+    #welcome-hero {
+        padding-top: 100px;  Adjust according to your header height 
+    }
+} */
 
 /* 
 .service-list {
