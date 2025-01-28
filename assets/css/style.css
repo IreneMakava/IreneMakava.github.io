@@ -206,7 +206,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.navbar-toggle */
 
 #welcome-hero {
-    padding-top: 50px; /* Adjust based on navbar height */
+    padding-top: 100px; /* Adjust based on navbar height */
 }
 .navbar-fixed {
     background: white !important;
@@ -890,4 +890,26 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+.service-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between items */
+    font-size: 18px;
+    color: #333; /* Text color */
+}
+
+.service-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between bullet and text */
+}
+
+.service-list li i {
+    color: #4A4A68; /* Bullet color */
+    font-size: 12px;
+}
+
 /*========================Thank you=================
