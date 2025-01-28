@@ -202,8 +202,22 @@ nav.navbar.bootsnav .navbar-toggle {
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+
 /*.navbar-toggle */
 
+#welcome-hero {
+    padding-top: 100px; /* Adjust based on navbar height */
+}
+.navbar-fixed {
+    background: white !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.navbar-fixed {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
 
 /*-------------------------------------
