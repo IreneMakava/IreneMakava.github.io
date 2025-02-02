@@ -67,7 +67,7 @@ a,a:hover,a:active,a:focus {
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
 	color:#43485c;
-    font-size: 16px;
+       font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
@@ -80,7 +80,7 @@ p {
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
-	padding: 0;
+    padding: 0;
     margin: 0 auto;
     list-style: none;
 }
@@ -93,7 +93,8 @@ button {background: transparent;border: 0;}
 
 html,body{
     height: 100%;
-	position: relative;
+    position: relative;
+    overflow-x: hidden;
 }
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
@@ -102,6 +103,19 @@ html,body{
   -o-transition: opacity 0.3s 0.3s ease; 
   transition: opacity 0.3s 0.3s ease; 
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 18px; /* Adjust heading sizes */
+    }
+
+    p {
+        font-size: 14px; /* Adjust paragraph sizes */
+    }
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .fix{position: relative;clear: both;}
@@ -416,7 +430,20 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
 /*-------------------------------------
         5.  Education
 --------------------------------------*/
+@media (max-width: 768px) {
+    .education-horizontal-timeline .col-sm-4 {
+        width: 100%; /* Make each item full width */
+        margin-bottom: 20px; /* Add spacing between items */
+    }
 
+    .single-horizontal-timeline .experience-time h3 {
+        font-size: 16px; /* Reduce font size */
+    }
+
+    .single-horizontal-timeline p {
+        font-size: 14px; /* Reduce font size */
+    }
+}
 .education {
     background:  #f9fbfd;
     padding-top:  50px;
@@ -527,6 +554,29 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         7. Experience
 -------------------------------------*/
+@media (max-width: 768px) {
+    .service-item {
+        font-size: 16px; /* Reduce font size */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .main-timeline {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .main-timeline:before {
+        display: none; /* Hide the timeline line */
+    }
+
+    .timeline-content h4.title {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .timeline-content h5 {
+        font-size: 12px; /* Reduce font size */
+    }
+}
+
 .experience {
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
@@ -608,6 +658,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/
+@media (max-width: 768px) {
+    .profiles-content .col-sm-6 {
+        width: 100%; /* Make each item full width */
+    }
+
+    .single-about-txt p {
+        font-size: 14px; /* Reduce font size */
+    }
+}
+
 .profiles {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
@@ -777,6 +837,28 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         11. Contact
 --------------------------------------*/
+@media (max-width: 768px) {
+    .contact-form .form-control {
+        padding: 15px; /* Reduce padding */
+    }
+
+    .single-contact-btn {
+        width: 100%; /* Make button full width */
+    }
+
+    .contact-add-head h3 {
+        font-size: 20px; /* Reduce font size */
+    }
+
+    .contact-add-head p {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .hm-foot-icon ul li {
+        margin-right: 10px; /* Reduce spacing between icons */
+    }
+}
+
 .contact {
     background: #f9fbfd;
     padding: 50px 0 100px;
