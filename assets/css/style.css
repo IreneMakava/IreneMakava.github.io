@@ -128,17 +128,38 @@ header {
     position: relative;
     z-index: 9999;
 }
-@media (min-width: 1024px){}
-nav.navbar.bootsnav.no-background {
+
+@media (max-width: 768px) {
+    /* Adjust navbar height and padding */
+    .navbar-header a.navbar-brand {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+
+    /* Make the navigation menu stack vertically */
+    .navbar-collapse {
+        background: #fff;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    
+}
+
+/* @media (min-width: 1024px){}
+ nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
-}
+}*/
 
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
-}
+} 
 
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
@@ -155,6 +176,7 @@ nav.navbar.bootsnav {
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
     font-weight: 400;
+    margin: 10px 0;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -171,7 +193,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
 nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
-}
+} 
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 /*.nav li*/
@@ -182,6 +204,8 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .menu-ui-design{overflow-y:scroll;height: 350px;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
+    overflow-y: auto;
+    height: auto;
 }
 .menu-ui-design::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 8px #000;
@@ -199,9 +223,10 @@ nav.navbar.bootsnav .navbar-toggle {
     background-color: transparent;
     border: 1px solid #f74dd8;
     padding: 10px;
+    margin-top: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
+nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;} 
 
 /*.navbar-toggle */
 
@@ -211,13 +236,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
 .navbar-fixed {
     background: white !important;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
-}
-.navbar-fixed {
     z-index: 1000;
     position: fixed;
     width: 100%;
     top: 0;
 }
+
 
 
 /*-------------------------------------
@@ -246,7 +270,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
@@ -254,16 +278,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
 .header-text h2 span {color: #f74dd8;}
 .header-text p {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
     margin: 30px 0 60px;
     letter-spacing: 1px;
 }
 .header-text a {
-    width: 200px;
-    height: 60px;
-    line-height: 60px;
+    width: 150px; /* Reduce button size */
+    height: 50px;
+    line-height: 50px;
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
@@ -278,6 +302,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
 }
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
 /*.header-text-area*/
+
+@media (max-width: 768px) {
+    .welcome-hero {
+        height: 500px; /* Reduce height for smaller screens */
+    }
+}
 
 /*-------------------------------------
         4.  About
@@ -357,6 +387,27 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f74dd8;}
 }
 .about-list-icon ul li a i {
     margin-left: 6px;
+}
+@media (max-width: 768px) {
+    .about-content {
+        padding-top: 50px; /* Reduce padding */
+    }
+
+    .single-about-txt h3 {
+        font-size: 16px; /* Reduce font size */
+    }
+
+    .single-about-txt p {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .single-about-img img {
+        height: auto; /* Make images responsive */
+    }
+
+    .about-list-icon {
+        width: 100%; /* Adjust social icons */
+    }
 }
 /*.ab-list-icon */
 
