@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79a13833.css",
+    "main.js": "/static/js/main.4543d74c.js",
+    "static/js/453.afef300b.chunk.js": "/static/js/453.afef300b.chunk.js",
+    "static/media/backgroundHome.jpg": "/static/media/backgroundHome.4fec2bb4c7d1d62096df.jpg",
+    "static/media/1.jpg": "/static/media/1.c91409b79a1226f6b860.jpg",
+    "static/media/ourServices.jpg": "/static/media/ourServices.a0fa10674b07378e7750.jpg",
+    "static/media/ourWorkProcess.jpg": "/static/media/ourWorkProcess.c1434c5704597e71a1dd.jpg",
+    "static/media/boxicons.svg": "/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/aboutUs.png": "/static/media/aboutUs.020c5de4e4bfdaee8e23.png",
+    "index.html": "/index.html",
+    "main.79a13833.css.map": "/static/css/main.79a13833.css.map",
+    "main.4543d74c.js.map": "/static/js/main.4543d74c.js.map",
+    "453.afef300b.chunk.js.map": "/static/js/453.afef300b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a13833.css",
+    "static/js/main.4543d74c.js"
+  ]
+}
