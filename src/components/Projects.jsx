@@ -1,12 +1,15 @@
 import React from "react";
 import Image from '../assets/1.jpg'
+import Image1 from '../assets/2.jpg'
+import Image2 from '../assets/3.jpg'
+import Image3 from '../assets/4.jpg'
 
 const clientLogos = [
   {
     img: Image ,
   },
   {
-    img: 'https://images.unsplash.com/photo-1612831455543-8374ebd873b2?auto=format&fit=crop&w=800&q=60',
+    img: Image1,
   },
   {
     img: 'https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=800&q=60',
@@ -15,10 +18,10 @@ const clientLogos = [
     img: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=800&q=60',
   },
   {
-    img: 'https://images.unsplash.com/photo-1587614382346-4ec1c9af6c5e?auto=format&fit=crop&w=800&q=60',
+    img: Image2,
   },
   {
-    img: 'https://www.istockphoto.com/photo/construction-and-structure-concept-planning-of-engineer-or-architect-meeting-for-gm2163457443-583805736?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fgraphic-design&utm_medium=affiliate&utm_source=unsplash&utm_term=graphic+design%3A%3A%3A',
+    img: Image3,
   },
 ];
 
